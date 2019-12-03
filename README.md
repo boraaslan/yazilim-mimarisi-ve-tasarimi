@@ -8,7 +8,7 @@ Bu tasarım deseninde, bir sınıfın sistem içinde yalnızca bir tane nesnesi 
 
 Örnek olarak yukarıda verilen class yapısında oluşturma foksiyonu private olarak ayarlanmıştır. Böylelikle nesne new komutu ile oluşturulamaz. Bu nesneyi oluşturmak için hazırlanan `nesneOlustur()` fonksiyonu sayesinde eğer nesne ilk defa yaratılıyor ise oluşturulur. Eğer daha önceden nesne mevcut ise var olan nesne döndürülür.
 
-```pyhton
+```java
 public static SingletonClass nesneOlustur(){
         if(nesne==null){
             nesne=new SingletonClass();
